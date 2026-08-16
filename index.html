@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Rukhsar — A Little Place For You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor-dot"></div>
+
+<div id="musicGate" class="music-gate">
+  <div class="music-gate-card">
+    <div class="music-note">♫</div>
+    <span class="eyebrow">A LITTLE SOUNDTRACK</span>
+    <h2>Press enter.<br><em>Let the memories play.</em></h2>
+    <p>The soundtrack will stay with the journey.</p>
+    <button id="enterJourney" class="primary">Enter the journey →</button>
+  </div>
+</div>
+
+<audio id="backgroundMusic" preload="auto" loop>
+  <source src="assets/audio/video-soundtrack.mp3" type="audio/mpeg">
+</audio>
+<button id="musicToggle" class="music-toggle" aria-label="Pause soundtrack" title="Pause soundtrack">♫ <span>Soundtrack</span></button>
+
+<header class="topbar">
+  <div class="brand">R</div>
+  <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+  <nav id="nav">
+    <a href="#intro">Start</a><a href="#memories">Memories</a><a href="#little">Little things</a>
+    <a href="#dreams">Dreams</a><a href="#video">Video</a><a href="#final">Last page</a>
+  </nav>
+</header>
+
+<main>
+<section id="intro" class="hero">
+  <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+  <div class="hero-content">
+    <div class="eyebrow">A LITTLE PLACE FOR BEAUTIFUL MEMORIES</div>
+    <h1>Hey, Rukhsar.</h1>
+    <p class="hero-question">How are you?</p>
+    <p class="muted">No perfect answer needed.</p>
+    <div class="choices">
+      <button class="choice" data-mode="okay">I'm okay :)</button>
+      <button class="choice outline" data-mode="not">Not really...</button>
+    </div>
+    <div id="introResponse" class="intro-response"></div>
+    <div class="scroll-note">scroll slowly <span>↓</span></div>
+  </div>
+</section>
+
+<section class="chapter dark reveal-section">
+  <div class="chapter-number">01</div>
+  <div class="chapter-copy">
+    <p class="tiny-label">THE MANY VERSIONS OF YOU</p>
+    <h2>You have lived through<br><em>so many versions of yourself.</em></h2>
+    <p>The girl who studied. The girl who laughed. The girl who travelled. The girl who cooked. The girl who celebrated. The girl who kept going.</p>
+    <p class="signature">And every one of them was still you.</p>
+  </div>
+  <div class="chapter-mark">R</div>
+</section>
+
+<section id="memories" class="memory-section">
+  <div class="section-head reveal-section">
+    <span>02 / THE ALBUM</span>
+    <h2>A collection of moments<br><em>that deserve another look.</em></h2>
+    <p>Not a perfect timeline. Just little pieces of a life.</p>
+  </div>
+  <div id="memoryGrid" class="memory-grid"></div>
+</section>
+
+<section id="little" class="little-section">
+  <div class="section-head reveal-section">
+    <span>03 / THE LITTLE THINGS</span>
+    <h2>The details that make<br><em>Rukhsar, Rukhsar.</em></h2>
+  </div>
+  <div class="trait-grid" id="traitGrid"></div>
+  <div class="side-note reveal-section">Some people are remembered for what they achieved.<br><em>Some are remembered for how they made people feel.</em></div>
+</section>
+
+<section class="story dark reveal-section">
+  <div class="story-inner">
+    <span class="eyebrow">A LITTLE LIFE LESSON</span>
+    <h2>Sometimes you don't understand<br><em>a chapter while you're living it.</em></h2>
+    <p>Remember Satara? At first, it felt like a place you never wanted to be. And then, six months later, it became one of those decisions life quietly gets right.</p>
+    <div class="quote">“Maybe the chapter you don't like today is the one you'll thank life for later.”</div>
+  </div>
+</section>
+
+<section class="journey-cards">
+  <div class="mini-story reveal-section">
+    <span>THE ₹1.5 LAKH CHAPTER</span>
+    <h3>Two years of medical classes.</h3>
+    <p>₹1.5 lakh, two whole years… and apparently life still had the audacity to give you an even bigger course called <em>“figuring things out.”</em></p>
+    <small>— a little sarcasm, because you earned it.</small>
+  </div>
+  <div class="mini-story reveal-section">
+    <span>THE LAPTOP STORY</span>
+    <h3>Half a project on a college laptop.</h3>
+    <p>And then came that day when Mum gifted you your own laptop. A small object, maybe. But the happiness on that day? Definitely not small.</p>
+    <small>Some gifts become memories.</small>
+  </div>
+  <div class="mini-story reveal-section">
+    <span>THE RESULT THAT WASN'T THE END</span>
+    <h3>One exam never gets to write the whole story.</h3>
+    <p>There was a time when not qualifying GPAT hurt badly. But life kept moving, and somehow it kept bringing its own answers.</p>
+    <small>The story kept going.</small>
+  </div>
+</section>
+
+<section id="dreams" class="dreams">
+  <div class="section-head reveal-section">
+    <span>04 / WHAT'S AHEAD</span>
+    <h2>There is still<br><em>so much to do.</em></h2>
+  </div>
+  <div class="dream-grid">
+    <div class="dream reveal-section"><i>✦</i><span>Make Mum's birthday special</span><small>Because making the people you love happy matters to you.</small></div>
+    <div class="dream reveal-section"><i>✦</i><span>Ruhan's dream bike</span><small>One day, that sports bike won't just be a dream.</small></div>
+    <div class="dream reveal-section"><i>✦</i><span>Hajj</span><small>Ajmer was once a wish too. Some wishes become journeys.</small></div>
+    <div class="dream reveal-section"><i>✦</i><span>Travel more</span><small>More roads, more photographs, more stories.</small></div>
+    <div class="dream reveal-section"><i>✦</i><span>Teach & evolve</span><small>Keep learning. Keep sharing. Keep becoming.</small></div>
+    <div class="dream reveal-section"><i>✦</i><span>Keep cooking</span><small>Especially when the food is made for someone you love.</small></div>
+  </div>
+</section>
+
+<section class="faith-section dark reveal-section">
+  <div class="faith-copy">
+    <span class="eyebrow">A WISH THAT BECAME A MEMORY</span>
+    <h2>Ajmer was once<br><em>on the wish list.</em></h2>
+    <p>And then you went. Another little reminder that some things take time, but that doesn't mean they won't happen.</p>
+    <div class="faith-line">Next chapter: Hajj, Insha'Allah.</div>
+  </div>
+</section>
+
+<section class="open-when dark">
+  <div class="section-head reveal-section">
+    <span>05 / FOR ANOTHER DAY</span>
+    <h2>Open when you<br><em>need a little reminder.</em></h2>
+  </div>
+  <div class="envelope-grid">
+    <button class="envelope" data-msg="Your worth did not disappear because today is difficult. You are still you.">Open when you feel low</button>
+    <button class="envelope" data-msg="One difficult day is still only one day. Tomorrow gets its own page.">Open after a terrible day</button>
+    <button class="envelope" data-msg="Look back at how many versions of you have already made it here.">Open when you forget yourself</button>
+    <button class="envelope" data-msg="Remember Satara. Remember the laptop. Remember how some things make sense later.">Open when you need hope</button>
+  </div>
+  <button id="randomBtn" class="primary">Give me a random memory →</button>
+  <div id="randomMemory" class="random-memory"></div>
+</section>
+
+<section id="video" class="video-section dark">
+  <div class="video-wrap">
+    <div class="section-head reveal-section">
+      <span>06 / ONE MORE MEMORY</span>
+      <h2>Press play.<br><em>Just for a little while.</em></h2>
+    </div>
+    <div class="video-card reveal-section">
+      <video controls preload="metadata" poster="assets/videos/memory-video-poster.jpg">
+        <source src="assets/videos/memory-video.mp4" type="video/mp4">
+      </video>
+      <div class="video-caption"><span>ONE LITTLE PIECE OF TODAY</span><p>Some moments are better remembered in motion.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="soundtrack dark">
+  <div class="sound-inner reveal-section">
+    <div class="vinyl"><span>♫</span></div>
+    <div><span class="eyebrow">A LITTLE SOUNDTRACK</span><h3>For the quiet parts of the journey.</h3><p>Press play when you want the page to feel a little more alive.</p></div>
+    <audio id="soundtrack" controls preload="metadata"><source src="assets/audio/video-soundtrack.mp3" type="audio/mpeg"></audio>
+  </div>
+</section>
+
+<section id="final" class="final">
+  <div class="final-inner reveal-section">
+    <span class="eyebrow">07 / THE LAST PAGE</span>
+    <h2>Rukhsar,<br><em>remember this.</em></h2>
+    <p>I don't want this little place to tell you how to feel or what you should become. I just wanted to put a few pieces of you in one place — the smiles, the dreams, the family stories, the silly little memories, the strong days and the ordinary ones.</p>
+    <p class="personal-message">You are genuine. You are helpful. You love deeply. You make people comfortable. You cook with love. You want to make Mum's birthday special. You dream about doing something beautiful for the people who are yours. And you are still learning, still evolving, still becoming.</p>
+    <div class="final-line">Whatever this chapter is,<br><strong>it is not the whole book.</strong></div>
+    <button id="replay" class="primary">Start from the beginning ↗</button>
+    <div class="made">A small reminder of a very big heart <span>♡</span></div>
+  </div>
+</section>
+</main>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <button id="closeModal" class="close" aria-label="Close">×</button>
+  <div class="modal-card"><div id="modalMedia"></div><div id="modalText"></div></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
